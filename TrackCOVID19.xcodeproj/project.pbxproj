@@ -15,6 +15,7 @@
 		3492BE0F245BD680001E1D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3492BE0D245BD680001E1D55 /* LaunchScreen.storyboard */; };
 		3492BE17245BD96C001E1D55 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3492BE16245BD96C001E1D55 /* Tracking.swift */; };
 		3492BE1D245BDACE001E1D55 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3492BE1C245BDACE001E1D55 /* WebService.swift */; };
+		3492BE1F245BE177001E1D55 /* TrackingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3492BE1E245BE177001E1D55 /* TrackingListViewModel.swift */; };
 		3492BE21245BE229001E1D55 /* TrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3492BE20245BE229001E1D55 /* TrackingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3492BE10245BD680001E1D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3492BE16245BD96C001E1D55 /* Tracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking.swift; sourceTree = "<group>"; };
 		3492BE1C245BDACE001E1D55 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		3492BE1E245BE177001E1D55 /* TrackingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingListViewModel.swift; sourceTree = "<group>"; };
 		3492BE20245BE229001E1D55 /* TrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 		3492BE1A245BD993001E1D55 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3492BE1E245BE177001E1D55 /* TrackingListViewModel.swift */,
 				3492BE20245BE229001E1D55 /* TrackingViewModel.swift */,
 			);
 			path = ViewModel;
@@ -190,6 +193,7 @@
 				3492BE17245BD96C001E1D55 /* Tracking.swift in Sources */,
 				3492BE03245BD67D001E1D55 /* AppDelegate.swift in Sources */,
 				3492BE05245BD67D001E1D55 /* SceneDelegate.swift in Sources */,
+				3492BE1F245BE177001E1D55 /* TrackingListViewModel.swift in Sources */,
 				3492BE1D245BDACE001E1D55 /* WebService.swift in Sources */,
 				3492BE07245BD67D001E1D55 /* ContentView.swift in Sources */,
 				3492BE21245BE229001E1D55 /* TrackingViewModel.swift in Sources */,
