@@ -18,6 +18,6 @@ class WebService {
             } catch  {
                 fatalError(error as! String)
             }
-        }
+        }.resume()
     }
 }
