@@ -20,7 +20,7 @@ struct ContentView: View {
                         Text(tracking.state)
                             .padding()
                             .foregroundColor(Color.white)
-                            .background(Color.orange)
+                            .background(Color.green)
                             .clipShape(Circle())
                             .font(.custom("", size: 22))
                     }
@@ -49,7 +49,7 @@ struct ContentView: View {
                                 .cornerRadius(10)
                         }
                     }
-                     
+                    
                     Spacer()
                 }
                 .navigationBarTitle("COVID-19 Tracking")
