@@ -1,9 +1,33 @@
-//
-//  TrackingViewModel.swift
-//  TrackCOVID19
-//
-//  Created by Tiwari, Niraj | Nero | LPD on 2020/05/01.
-//  Copyright © 2020 NT. All rights reserved.
-//
-
 import Foundation
+
+struct TrackingViewModel {
+    
+    var tracking: Tracking
+    
+    init(tracking: Tracking) {
+        self.tracking = tracking
+    }
+    
+    var id: UUID = UUID()
+    
+    var state: String {
+        return self.tracking.state
+    }
+    
+    var total: Int {
+        return self.tracking.total
+    }
+    
+    var positive: Int {
+        return self.tracking.positive
+    }
+    
+    var death: Int {
+        return self.tracking.death
+    }
+    
+    var hospitalized: Int {
+        return self.tracking.hospitalized ?? 0
+    }
+}
+
